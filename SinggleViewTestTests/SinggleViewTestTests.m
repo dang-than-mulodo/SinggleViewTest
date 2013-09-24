@@ -26,7 +26,9 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in SinggleViewTestTests");
+    
+    STAssertNotNil(@"xx", @"not nil");
+//    STFail(@"Unit tests are not implemented yet in SinggleViewTestTests");
 }
 
 @end
